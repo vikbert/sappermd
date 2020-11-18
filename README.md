@@ -1,23 +1,14 @@
-# sapper-template
+# Snappdown (Snapper + Markdown)
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
+This boilerplate integrates the `markdown` with the default [Sapper](https://github.com/sveltejs/sapper) template for a quick start.
 
 
 ## Getting started
-
-
-### Using `degit`
-
-[`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository. Use either the `rollup` or `webpack` branch in `sapper-template`:
-
+### Init a project from the template
+Clone the GitHub's template feature with the [boilerplate snappdown](https://github.com/vikbert/snappdown) repository.
 ```bash
-npx degit "pngwn/sapper-mdsvex-template" my-app
+ git clone https://github.com/vikbert/snappdown my-app
 ```
-
-
-### Using GitHub templates
-
-Alternatively, you can use GitHub's template feature with the [sapper-mdsvex-template](https://github.com/pngwn/sapper-mdsvex-template) repository.
 
 
 ### Running the project
