@@ -1,0 +1,11 @@
+<script>
+  import PageHeader from './_pageHeader.svelte';
+</script>
+
+<PageHeader pageTitle="Home">
+  <h1 class="bold">About</h1>
+</PageHeader>
+
+<div class="container my-2" />
+
+About This is the 'about' page. There's not much here.

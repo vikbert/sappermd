@@ -1,21 +1,18 @@
 <script>
   export let segment;
-  $: console.log(segment);
 </script>
 
 <style>
-  nav {
-    border-bottom: 1px solid rgba(255, 62, 0, 0.1);
-    font-weight: 300;
-    padding: 0 1em;
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
   }
-
   ul {
     margin: 0;
     padding: 0;
   }
 
-  /* clearfix */
   ul::after {
     content: '';
     display: block;
@@ -25,6 +22,7 @@
   li {
     display: block;
     float: left;
+    margin-bottom: 0.2rem;
   }
 
   .selected {
@@ -37,23 +35,19 @@
     content: '';
     width: calc(100% - 1em);
     height: 2px;
-    background-color: rgb(255, 62, 0);
     display: block;
-    bottom: -1px;
   }
 
   a {
     text-decoration: none;
-    padding: 1em 0.5em;
+    padding: 0.5em 0.5em;
     display: block;
   }
 </style>
 
-<nav>
-  <div class="container">
-    <ul>
-      <li><a class:selected={segment === undefined} href=".">home</a></li>
-      <li><a class:selected={segment === 'about'} href="about">about</a></li>
-    </ul>
-  </div>
-</nav>
+<div class="navigation">
+  <ul>
+    <li><a class:selected={segment === undefined} href=".">Home</a></li>
+    <li><a class:selected={segment === 'about'} href="about">About</a></li>
+  </ul>
+</div>
