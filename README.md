@@ -1,4 +1,4 @@
-# Snappdown (Snapper + Markdown)
+# Sappermd (Sapper + Markdown)
 
 This boilerplate integrates the `markdown` with the default [Sapper](https://github.com/sveltejs/sapper) template for a quick start.
 

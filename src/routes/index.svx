@@ -7,4 +7,16 @@
 </PageHeader>
 
 <div class="my-2" />
-(Sanpper + Markdown) #### getting started
+
+# heading1
+
+## heading2
+
+### heading3
+
+>code
+```bash
+  <PageHeader pageTitle="Home">
+    <h1 class="bold">Home</h1>
+  </PageHeader>
+```
